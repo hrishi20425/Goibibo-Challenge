@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FlightValidation]">
+  <listeners>
+    <listener class-name="utilities.TestListener"/>
+  </listeners>
+  <test name="Fligh_Booking(failed)">
+    <classes>
+      <class name="pageTests.FlightBookingTest">
+        <methods>
+          <include name="FlightBooking_TC002"/>
+          <include name="FlightBooking_TC001"/>
+          <include name="Intialize"/>
+        </methods>
+      </class> <!-- pageTests.FlightBookingTest -->
+    </classes>
+  </test> <!-- Fligh_Booking(failed) -->
+</suite> <!-- Failed suite [FlightValidation] -->
